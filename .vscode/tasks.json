@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Laravel: Serve",
+      "type": "shell",
+      "command": "php artisan serve",
+      "options": {
+        "cwd": "${workspaceFolder}/laravel-app"
+      },
+      "problemMatcher": [],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Laravel: Run Tests",
+      "type": "shell",
+      "command": "php artisan test",
+      "options": {
+        "cwd": "${workspaceFolder}/laravel-app"
+      },
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Laravel: Migrate & Seed",
+      "type": "shell",
+      "command": "php artisan migrate:fresh --seed",
+      "options": {
+        "cwd": "${workspaceFolder}/laravel-app"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Simulator: Run Dev Server",
+      "type": "shell",
+      "command": "npm run dev",
+      "problemMatcher": [],
+      "isBackground": true
+    }
+  ]
+}

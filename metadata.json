@@ -1,0 +1,6 @@
+{
+  "name": "Medical Case Management System - Laravel & Blade",
+  "description": "Production-ready Medical Case Management web application built with Laravel, Blade, MySQL, Sanctum API, role-based authorization, and automated testing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
